@@ -27,8 +27,8 @@ while chances > 0:
 		
 	chances -=1
 	if chances ==0:
-			print(f'Suas Jogadas Acabaram! (Vitorias: {vitorias} , Perdas: {perdas} )FIM DE JOGO!!')
-			break
+		print(f'Suas Jogadas Acabaram! (Vitorias: {vitorias} , Perdas: {perdas} )FIM DE JOGO!!')
+		break
 	continuar= (input(f'Você tem {chances} chances, Deseja continuar?(s/n): '))
 	if continuar .lower() !='s':
 		break
