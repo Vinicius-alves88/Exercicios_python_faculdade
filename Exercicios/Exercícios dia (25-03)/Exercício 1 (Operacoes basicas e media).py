@@ -7,7 +7,7 @@ print (f'O resultado da soma é {soma}.')
 div= num1 / num2
 print (f'O resultado da divisão é {div}.')
 
-mult= num1 / num2
+mult= num1 * num2
 print (f'O resultado da multiplicação é {mult}')
 
 sub= num1 - num2
